@@ -1,0 +1,27 @@
+<!-- <div class="center">
+    <h1 class="center-text">My Journey</h1>
+</div> -->
+
+
+<div class="main">
+    <img id="journey-img" src="assets/images/journey.jpg" alt="">
+    <h1 class="journey-title">My Journey</h1>
+</div>
+
+<ng-container *ngFor="let job of Jobs">
+    <div class="container center">
+        <div class="row align-items-start">
+            <div class="col">
+                <img id="logo-img" src="{{job.Logo}}" alt="">
+              </div>
+              <div class="col">
+                <H4>{{job.Title}}</H4>
+                <h6>{{job.CompanyName}} - {{job.Dates}}</h6>
+                <li *ngFor="let i of job.Items">
+                    {{i.Description}}
+                </li>
+              </div>
+        </div>
+    </div>
+    <hr>
+</ng-container>

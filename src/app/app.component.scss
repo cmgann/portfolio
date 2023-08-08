@@ -1,0 +1,48 @@
+
+#wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+.panels {
+    position:relative;
+   //  height:100%;
+   //  min-height:100%;
+   //  width:100%;
+    z-index:1;
+}
+
+#a{
+   background:#1C1D1F;
+   color: #DBE4EC;
+    position:fixed;
+    // color:red;
+    top:0;
+    z-index:-99;
+}
+
+#b{
+   margin-top:100%;
+   background: #1C1D1F;
+   color: #DBE4EC;
+
+}
+
+#c{
+   background:#1C1D1F;
+   color: #DBE4EC;
+
+}
+
+#d{
+   background:#1C1D1F;
+   color: #DBE4EC;
+
+}
+
+.fixed{
+   position: fixed;
+   width: 100%;
+   z-index: 99;
+}
